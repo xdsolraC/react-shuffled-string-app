@@ -21,7 +21,7 @@ function App() {
     <div>
       <h1>Word letters shuffle app</h1>
       <div>
-        <input type="text" onChange={handleInputChange} value={inputValue}/>
+        <input type="text" placeholder="Enter a word"  onChange={handleInputChange} value={inputValue}/>
         <button onClick={handleButtonClick}>Shuffle</button>
       </div>
       <p className="result">{randomString}</p>
